@@ -1,0 +1,12 @@
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Core\bin\Debug\net8.0\Luftborn.Core.deps.json
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Core\bin\Debug\net8.0\Luftborn.Core.dll
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Core\bin\Debug\net8.0\Luftborn.Core.pdb
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Core\obj\Debug\net8.0\Luftborn.Core.csproj.AssemblyReference.cache
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Core\obj\Debug\net8.0\Luftborn.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Core\obj\Debug\net8.0\Luftborn.Core.AssemblyInfoInputs.cache
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Core\obj\Debug\net8.0\Luftborn.Core.AssemblyInfo.cs
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Core\obj\Debug\net8.0\Luftborn.Core.csproj.CoreCompileInputs.cache
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Core\obj\Debug\net8.0\Luftborn.Core.dll
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Core\obj\Debug\net8.0\refint\Luftborn.Core.dll
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Core\obj\Debug\net8.0\Luftborn.Core.pdb
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Core\obj\Debug\net8.0\ref\Luftborn.Core.dll

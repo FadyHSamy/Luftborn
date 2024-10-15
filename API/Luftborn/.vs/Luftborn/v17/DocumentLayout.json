@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3DDD538-1D1F-41BA-8629-0427C19FFD21}|Luftborn.Api\\Luftborn.Api.csproj|d:\\my own applications\\luftborn\\api\\luftborn\\luftborn.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3DDD538-1D1F-41BA-8629-0427C19FFD21}|Luftborn.Api\\Luftborn.Api.csproj|solutionrelative:luftborn.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A2B1B7-6F0D-4F9B-B986-C0FC67A2C5E0}|Luftborn.Core\\Luftborn.Core.csproj|d:\\my own applications\\luftborn\\api\\luftborn\\luftborn.core\\dtos\\tasksdto\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25A2B1B7-6F0D-4F9B-B986-C0FC67A2C5E0}|Luftborn.Core\\Luftborn.Core.csproj|solutionrelative:luftborn.core\\dtos\\tasksdto\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A2B1B7-6F0D-4F9B-B986-C0FC67A2C5E0}|Luftborn.Core\\Luftborn.Core.csproj|d:\\my own applications\\luftborn\\api\\luftborn\\luftborn.core\\dtos\\tasksdto\\addtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25A2B1B7-6F0D-4F9B-B986-C0FC67A2C5E0}|Luftborn.Core\\Luftborn.Core.csproj|solutionrelative:luftborn.core\\dtos\\tasksdto\\addtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3DDD538-1D1F-41BA-8629-0427C19FFD21}|Luftborn.Api\\Luftborn.Api.csproj|d:\\my own applications\\luftborn\\api\\luftborn\\luftborn.api\\extensions\\middlewarecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3DDD538-1D1F-41BA-8629-0427C19FFD21}|Luftborn.Api\\Luftborn.Api.csproj|solutionrelative:luftborn.api\\extensions\\middlewarecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3DDD538-1D1F-41BA-8629-0427C19FFD21}|Luftborn.Api\\Luftborn.Api.csproj|d:\\my own applications\\luftborn\\api\\luftborn\\luftborn.api\\middlewares\\customexceptionsmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3DDD538-1D1F-41BA-8629-0427C19FFD21}|Luftborn.Api\\Luftborn.Api.csproj|solutionrelative:luftborn.api\\middlewares\\customexceptionsmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateTaskDto.cs",
+              "DocumentMoniker": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Core\\Dtos\\TasksDto\\UpdateTaskDto.cs",
+              "RelativeDocumentMoniker": "Luftborn.Core\\Dtos\\TasksDto\\UpdateTaskDto.cs",
+              "ToolTip": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Core\\Dtos\\TasksDto\\UpdateTaskDto.cs",
+              "RelativeToolTip": "Luftborn.Core\\Dtos\\TasksDto\\UpdateTaskDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T16:52:52.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MiddlewareCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Api\\Extensions\\MiddlewareCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Luftborn.Api\\Extensions\\MiddlewareCollectionExtensions.cs",
+              "ToolTip": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Api\\Extensions\\MiddlewareCollectionExtensions.cs",
+              "RelativeToolTip": "Luftborn.Api\\Extensions\\MiddlewareCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T16:35:19.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomExceptionsMiddleware.cs",
+              "DocumentMoniker": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Api\\Middlewares\\CustomExceptionsMiddleware.cs",
+              "RelativeDocumentMoniker": "Luftborn.Api\\Middlewares\\CustomExceptionsMiddleware.cs",
+              "ToolTip": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Api\\Middlewares\\CustomExceptionsMiddleware.cs",
+              "RelativeToolTip": "Luftborn.Api\\Middlewares\\CustomExceptionsMiddleware.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T16:33:06.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddTaskDto.cs",
+              "DocumentMoniker": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Core\\Dtos\\TasksDto\\AddTaskDto.cs",
+              "RelativeDocumentMoniker": "Luftborn.Core\\Dtos\\TasksDto\\AddTaskDto.cs",
+              "ToolTip": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Core\\Dtos\\TasksDto\\AddTaskDto.cs",
+              "RelativeToolTip": "Luftborn.Core\\Dtos\\TasksDto\\AddTaskDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T16:32:27.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Api\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Luftborn.Api\\Controllers\\TasksController.cs",
+              "ToolTip": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Api\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Luftborn.Api\\Controllers\\TasksController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T16:27:53.955Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

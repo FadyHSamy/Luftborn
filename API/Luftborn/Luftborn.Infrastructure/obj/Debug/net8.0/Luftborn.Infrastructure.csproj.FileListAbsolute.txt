@@ -1,0 +1,15 @@
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\bin\Debug\net8.0\Luftborn.Infrastructure.deps.json
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\bin\Debug\net8.0\Luftborn.Infrastructure.dll
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\bin\Debug\net8.0\Luftborn.Infrastructure.pdb
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\obj\Debug\net8.0\Luftborn.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\obj\Debug\net8.0\Luftborn.Infrastructure.AssemblyInfoInputs.cache
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\obj\Debug\net8.0\Luftborn.Infrastructure.AssemblyInfo.cs
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\obj\Debug\net8.0\Luftborn.Infrastructure.csproj.CoreCompileInputs.cache
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\obj\Debug\net8.0\Luftborn.Infrastructure.dll
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\obj\Debug\net8.0\refint\Luftborn.Infrastructure.dll
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\obj\Debug\net8.0\Luftborn.Infrastructure.pdb
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\obj\Debug\net8.0\ref\Luftborn.Infrastructure.dll
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\bin\Debug\net8.0\Luftborn.Core.dll
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\bin\Debug\net8.0\Luftborn.Core.pdb
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\obj\Debug\net8.0\Luftborn.Infrastructure.csproj.AssemblyReference.cache
+D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Infrastructure\obj\Debug\net8.0\Luftborn.C09CE7DB.Up2Date
