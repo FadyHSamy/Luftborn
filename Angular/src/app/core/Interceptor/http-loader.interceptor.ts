@@ -1,14 +1,16 @@
 import { HttpInterceptorFn } from '@angular/common/http';
 import { LoaderService } from '../Services/loader/loader.service';
 import { finalize } from 'rxjs';
+import { LoadingController } from '@ionic/angular';
 
 export const httpLoaderInterceptor: HttpInterceptorFn = (req, next) => {
-  const loadingService = new LoaderService(); // Instantiate the loading service
-  loadingService.showLoadingSpinner(); // Show loading spinner UI element
+  const loadingCtrl = new LoadingController();
+  const loadingService = new LoaderService(loadingCtrl);
+  loadingService.presentLoading();
 
   return next(req).pipe(
     finalize(() => {
-      loadingService.hideLoadingSpinner(); // Hide loading spinner UI element
+      loadingService.dismissLoading();
     })
   );
 };

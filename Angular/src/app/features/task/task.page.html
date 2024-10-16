@@ -1,0 +1,57 @@
+<ion-content [fullscreen]="true">
+  <ion-grid class="full-height">
+    <ion-row
+      class="ion-justify-content-center ion-align-items-center full-height"
+    >
+      <ion-col size="12" sizeSm="10" sizeMd="8" sizeLg="6" sizeXl="5">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title class="ion-text-center">
+              <ion-title class="font-bold">TODO LIST</ion-title>
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <form [formGroup]="taskForm">
+              <ion-grid>
+                <ion-row class="ion-text-center ion-align-items-center">
+                  <ion-col
+                    size="12"
+                    sizeSm="12"
+                    sizeMd="12"
+                    sizeLg="12"
+                    sizeXl="12"
+                  >
+                    <ion-input
+                      fill="outline"
+                      placeholder="Enter text"
+                      formControlName="title"
+                    ></ion-input>
+                  </ion-col>
+                  <ion-col
+                    size="12"
+                    sizeSm="12"
+                    sizeMd="12"
+                    sizeLg="12"
+                    sizeXl="12"
+                  >
+                    <ion-button (click)="addTask()" expand="block"
+                      >Add</ion-button
+                    >
+                  </ion-col>
+                </ion-row>
+                <ion-list>
+                  <ion-item lines="full" *ngFor="let task of taskList.tasks">
+                    <ion-label>{{task.title}}</ion-label>
+                    <ion-button (click)="deleteTask(task.id)"
+                      >Delete</ion-button
+                    >
+                  </ion-item>
+                </ion-list>
+              </ion-grid>
+            </form>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

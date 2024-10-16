@@ -7,7 +7,12 @@ export const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'task',
     pathMatch: 'full',
+  },
+  {
+    path: 'task',
+    loadComponent: () =>
+      import('./features/task/task.page').then((m) => m.TaskPage),
   },
 ];
