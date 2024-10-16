@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpResponse } from 'src/app/models/HttpResponse';
-import { Task } from 'src/app/models/TasksModels';
+import { Task, TaskStatus } from 'src/app/models/TasksModels';
 import { environment } from 'src/environments/environment';
 
 @Injectable({
@@ -27,6 +27,18 @@ export class TaskHttpService {
     return this.httpClient.post<HttpResponse<null>>(
       `${environment.apiUrl}api/Tasks/AddTask`,
       { title: taskTitle, description: null }
+    );
+  }
+  updateTaskStatus(
+    taskId: number,
+    status: TaskStatus
+  ): Observable<HttpResponse<null>> {
+    return this.httpClient.put<HttpResponse<null>>(
+      `${environment.apiUrl}api/Tasks/UpdateTask`,
+      {
+        id: taskId,
+        status: status,
+      }
     );
   }
 }

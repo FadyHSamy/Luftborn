@@ -18,6 +18,7 @@ namespace Luftborn.Infrastructure.Repositories
         public void AddTask(Tasks tasks)
         {
             tasks.Id = nextId;
+            tasks.Status = Core.Entities.Tasks.TaskStatus.Unfinished;
             nextId = nextId + 1;
             AllAvaliableTasks.Add(tasks);
         }
@@ -39,9 +40,7 @@ namespace Luftborn.Infrastructure.Repositories
             {
                 throw new NotFoundException("This Task Not Found");
             }
-
-            existingTask.Title = tasks.Title;
-            existingTask.Description = tasks.Description;
+            existingTask.Status = tasks.Status;
         }
     }
 }

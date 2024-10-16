@@ -11,7 +11,7 @@ import { AlertService } from 'src/app/core/Services/alert-service/alert.service'
 import { PresentToastService } from 'src/app/core/Services/present-toast/present-toast.service';
 import { TaskHttpService } from 'src/app/core/Services/task-http/task-http.service';
 import { IonicModule } from '@ionic/angular';
-import { Task } from '../../models/TasksModels';
+import { Task, TaskStatus } from '../../models/TasksModels';
 
 interface TaskList {
   tasks: Task[];
@@ -84,10 +84,23 @@ export class TaskPage implements OnInit {
       if (!response.isSuccess) {
         console.error(response.message);
       } else {
-        await this.presentToastService.presentToast('Task Added Successfully');
+        await this.presentToastService.presentToast(response.message);
         this.taskForm.reset();
         this.loadTasks();
       }
     });
+  }
+
+  updateTaskStatus(taskId: number, taskStatus: TaskStatus) {
+    this.taskService
+      .updateTaskStatus(taskId, taskStatus)
+      .subscribe(async (response) => {
+        if (!response.isSuccess) {
+          console.error(response.message);
+        } else {
+          await this.presentToastService.presentToast(response.message);
+          this.loadTasks();
+        }
+      });
   }
 }
