@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lismczAFhk8=",
+  "dgSpecHash": "qLQjN/VYS/8=",
   "success": true,
-  "projectFilePath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Core\\Luftborn.Core.csproj",
+  "projectFilePath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Core\\Luftborn.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fady_\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\fady_\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

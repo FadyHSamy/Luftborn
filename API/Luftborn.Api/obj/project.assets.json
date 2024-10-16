@@ -735,11 +735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Api\\Luftborn.Api.csproj",
+      "projectUniqueName": "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Api\\Luftborn.Api.csproj",
       "projectName": "Luftborn.Api",
-      "projectPath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Api\\Luftborn.Api.csproj",
+      "projectPath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Api\\Luftborn.Api.csproj",
       "packagesPath": "C:\\Users\\fady_\\.nuget\\packages\\",
-      "outputPath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Api\\obj\\",
+      "outputPath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fady_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -757,11 +757,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Core\\Luftborn.Core.csproj": {
-              "projectPath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Core\\Luftborn.Core.csproj"
+            "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Core\\Luftborn.Core.csproj": {
+              "projectPath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Core\\Luftborn.Core.csproj"
             },
-            "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Infrastructure\\Luftborn.Infrastructure.csproj": {
-              "projectPath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Infrastructure\\Luftborn.Infrastructure.csproj"
+            "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Infrastructure\\Luftborn.Infrastructure.csproj": {
+              "projectPath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Infrastructure\\Luftborn.Infrastructure.csproj"
             }
           }
         }

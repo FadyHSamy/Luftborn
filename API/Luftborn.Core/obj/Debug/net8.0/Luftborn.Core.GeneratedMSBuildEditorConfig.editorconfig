@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Luftborn.Core
-build_property.ProjectDir = D:\My Own Applications\Luftborn\API\Luftborn\Luftborn.Core\
+build_property.ProjectDir = D:\My Own Applications\Luftborn\API\Luftborn.Core\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

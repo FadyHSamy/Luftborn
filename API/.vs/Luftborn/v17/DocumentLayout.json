@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Own Applications\\Luftborn\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3DDD538-1D1F-41BA-8629-0427C19FFD21}|Luftborn.Api\\Luftborn.Api.csproj|d:\\my own applications\\luftborn\\api\\luftborn.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3DDD538-1D1F-41BA-8629-0427C19FFD21}|Luftborn.Api\\Luftborn.Api.csproj|solutionrelative:luftborn.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Luftborn.Api\\Program.cs",
+              "ToolTip": "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Api\\Program.cs",
+              "RelativeToolTip": "Luftborn.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T15:24:26.971Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Core\\Luftborn.Core.csproj": {}
+    "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Core\\Luftborn.Core.csproj": {}
   },
   "projects": {
-    "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Core\\Luftborn.Core.csproj": {
+    "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Core\\Luftborn.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Core\\Luftborn.Core.csproj",
+        "projectUniqueName": "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Core\\Luftborn.Core.csproj",
         "projectName": "Luftborn.Core",
-        "projectPath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Core\\Luftborn.Core.csproj",
+        "projectPath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Core\\Luftborn.Core.csproj",
         "packagesPath": "C:\\Users\\fady_\\.nuget\\packages\\",
-        "outputPath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn\\Luftborn.Core\\obj\\",
+        "outputPath": "D:\\My Own Applications\\Luftborn\\API\\Luftborn.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fady_\\AppData\\Roaming\\NuGet\\NuGet.Config",
