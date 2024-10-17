@@ -10,8 +10,7 @@ export class AlertService {
   async showConfirmationAlert(message: string): Promise<boolean> {
     return new Promise<boolean>(async (resolve) => {
       const alert = await this.alertController.create({
-        header: 'Confirmation',
-        subHeader: 'Please confirm your action',
+        header: 'Please confirm your action',
         message: message,
         buttons: [
           {

@@ -1,24 +1,23 @@
 ﻿using Luftborn.Core.Dtos.TasksDto;
-using Luftborn.Core.Entities.Tasks;
+using Luftborn.Core.Entities.TasksEntity;
 using Luftborn.Core.Exceptions;
 using Luftborn.Core.Interfaces.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Luftborn.Infrastructure.Repositories
 {
     public class TasksRepository : ITasksRepository
     {
-        private static List<Tasks> AllAvaliableTasks = new List<Tasks>();
+        private static List<TasksEntity> AllAvaliableTasks = new List<TasksEntity>();
         private static int nextId = 1;
 
-        public void AddTask(Tasks tasks)
+        public void AddTask(TasksEntity tasks)
         {
             tasks.Id = nextId;
-            tasks.Status = Core.Entities.Tasks.TaskStatus.Unfinished;
+            tasks.Status = Core.Entities.TasksEntity.TaskStatus.Unfinished;
             nextId = nextId + 1;
             AllAvaliableTasks.Add(tasks);
         }
@@ -28,12 +27,12 @@ namespace Luftborn.Infrastructure.Repositories
             AllAvaliableTasks = AllAvaliableTasks.Where(task => task.Id != taskId).ToList();
         }
 
-        public List<Tasks> GetAllTasks()
+        public List<TasksEntity> GetAllTasks()
         {
             return AllAvaliableTasks;
         }
 
-        public void UpdateTask(Tasks tasks)
+        public void UpdateTask(TasksEntity tasks)
         {
             var existingTask = AllAvaliableTasks.FirstOrDefault(task => task.Id == tasks.Id);
             if (existingTask == null)

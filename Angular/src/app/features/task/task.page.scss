@@ -1,3 +1,36 @@
-.full-height {
-  height: 30vh;
+.todo-grid {
+  height: 100%;
+  background: linear-gradient(to right, #b2f5ea, #38b2ac);
+}
+
+.todo-card {
+  background-color: azure;
+}
+
+ion-title {
+  font-weight: bold;
+}
+
+ion-button {
+  --background: #38b2ac;
+  --background-hover: #319795;
+  --background-activated: #2c7a7b;
+}
+
+ion-checkbox {
+  --size: 25px;
+  --checkbox-background-checked: #38b2ac;
+}
+ion-checkbox::part(container) {
+  border-radius: 6px;
+  border: 2px solid #38b2ac;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.decoration-pink-500 {
+  text-decoration-color: #d53f8c;
+  text-decoration-thickness: 2px;
 }

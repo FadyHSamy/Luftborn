@@ -1,5 +1,4 @@
 ﻿using Luftborn.Core.Dtos.TasksDto;
-using Luftborn.Core.Entities.Tasks;
 using System;
 using System.Collections.Generic;
 using System.Linq;

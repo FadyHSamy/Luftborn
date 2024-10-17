@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Luftborn.Core.Dtos.TasksDto;
-using Luftborn.Core.Entities.Tasks;
+using Luftborn.Core.Entities.TasksEntity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,11 +13,11 @@ namespace Luftborn.Core.Mappers.TaskMappers
     {
         public TaskProfile()
         {
-            CreateMap<Tasks, AddTaskRequest>()
+            CreateMap<TasksEntity, AddTaskRequest>()
                 .ReverseMap();
-            CreateMap<Tasks, GetAllTasks>()
+            CreateMap<TasksEntity, GetAllTasks>()
                 .ReverseMap();
-            CreateMap<Tasks, UpdateTaskDto>()
+            CreateMap<TasksEntity, UpdateTaskDto>()
                 .ReverseMap();
         }
     }

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Luftborn.Core.Dtos.TasksDto;
-using Luftborn.Core.Entities.Tasks;
+using Luftborn.Core.Entities.TasksEntity;
 using Luftborn.Core.Exceptions;
 using Luftborn.Core.Interfaces.IRepository;
 using Luftborn.Core.Interfaces.IServices;
@@ -29,7 +29,7 @@ namespace Luftborn.Core.Services
 
             try
             {
-                Tasks task = _mapper.Map<Tasks>(addTaskRequest);
+                TasksEntity task = _mapper.Map<TasksEntity>(addTaskRequest);
 
                 _tasksRepository.AddTask(task);
             }
@@ -53,7 +53,7 @@ namespace Luftborn.Core.Services
 
         public void UpdateTask(UpdateTaskDto updateTaskDto)
         {
-            Tasks task = _mapper.Map<Tasks>(updateTaskDto);
+            TasksEntity task = _mapper.Map<TasksEntity>(updateTaskDto);
             _tasksRepository.UpdateTask(task);
 
         }

@@ -1,5 +1,5 @@
 ﻿using Luftborn.Core.Dtos.TasksDto;
-using Luftborn.Core.Entities.Tasks;
+using Luftborn.Core.Entities.TasksEntity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +10,9 @@ namespace Luftborn.Core.Interfaces.IRepository
 {
     public interface ITasksRepository
     {
-        void AddTask(Tasks tasks);
-        List<Tasks> GetAllTasks();
+        void AddTask(TasksEntity tasks);
+        List<TasksEntity> GetAllTasks();
         void DeleteTask(int taskId);
-        void UpdateTask(Tasks tasks);
+        void UpdateTask(TasksEntity tasks);
     }
 }
